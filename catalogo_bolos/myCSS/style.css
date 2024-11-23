@@ -1,0 +1,162 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: bisque;
+}
+
+body.over{
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a.back{
+    height: 40px;
+    padding: 5px;
+    padding-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.catalog{
+    background-color: #2ec74f;
+}
+
+form.catalog{
+    padding: 0px;
+    margin: 0px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button.catalog:hover{
+    background-color: #28A745;
+}
+
+#login, #register {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#login a, #register a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+#login a:hover, #register a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#naoAdmin{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new_cake{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button.btn{
+    margin-right: 5px;
+    width: 157.66px;
+    height: 40px;
+}
+
+.options{
+    justify-content: center;
+}
+
+.col-6 img{
+    width: 100vw;
+}
+
+.col-6 img.girl{
+    height: 100vh;
+    width: auto;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.container.col-6{
+    top: 10vh;
+    right: 10vw;
+}
+
+.credits {
+    position: fixed;
+    bottom: 0;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-right: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 3px solid rgba(255, 0, 0, 0);
+    transition: border-bottom 0.3s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+.nav-item:hover{
+    border-bottom: 3px solid white;
+    background-color: #008cff;
+}
+    
