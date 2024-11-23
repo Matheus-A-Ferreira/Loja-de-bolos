@@ -15,6 +15,8 @@ Projeto realizado pra avaliação na matédeia de desenvolvimento fullstack
 
 Para começar, abra o arquivo Cake_catalog.sql e execute o script para criar o banco de dados e as tabelas corretamente.
 
+Após isso, vá no arquivo db.php e coloque a senha para seu usuário mySQL, caso necessário, mude o nome de usuário também
+
 Após isso, no Xampp, inicie os servidores apache e mySQL.
 
 Acesse o localhost no diretório da pasta catalogo_bolos, para acessar a página de admin, pode abrir diretamente no diretório ou usar o admin "Fulano" com a senha 123
