@@ -6,7 +6,7 @@ require 'db.php';
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Catálogo de Bolos</title>
+    <title>Painel de administração</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="myCSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
