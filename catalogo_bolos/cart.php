@@ -61,7 +61,7 @@ try {
                 <?php endif; ?>
             </tbody>
         </table>
-        <a class="btn btn-success" href="buy.php" onclick='return <?= $isEmpty ? "alert(\"O carrinho está vazio! Não há itens para comprar.\"); false" : "alert(\"Adicionado ao carrinho\");" ?>'>Finalizar compra</a>
+        <a class="btn btn-success" href="buy.php" onclick='return <?= $isEmpty ? "alert(\"O carrinho está vazio! Não há itens para comprar.\"); false" : "alert(\"Obrigado prla preferência!\");" ?>'>Finalizar compra</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
