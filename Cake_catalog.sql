@@ -22,4 +22,4 @@ CREATE TABLE cart (
     price DECIMAL(10, 2) NOT NULL DEFAULT 0
 );
 
-INSERT INTO employees (username, password) values ("Fulano", "123");
+INSERT INTO employees (username, password) values ("Fulano", "$2y$10$/OR5BsqbqsGuypmpPZfK9uR.2fo553EPXwfw.x68lIoysI35qfAOq");
